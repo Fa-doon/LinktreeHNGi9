@@ -26,7 +26,7 @@ main {
 #share_1 {
     position: relative;
     bottom: 120px;
-    left: 250px;
+    left: 300px;
 }
 
 #share_2 {
@@ -68,4 +68,85 @@ footer {
     width: 80%;
     margin: 40px auto 0 auto;
     border-top: 1px solid #EAECF0;;
+}
+
+
+@media screen and (max-width: 1020px) {
+    #share_2 {
+        display: block;
+        position: relative;
+        bottom: 120px;
+        left: 550px;
+    }
+    #share_1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    #share_2 {
+            display: block;
+            position: relative;
+            bottom: 120px;
+            left: 500px;
+        }
+    
+        #share_1 {
+            display: none;
+        }
+}
+@media screen and (max-width: 900px) {
+    #share_2 {
+        display: block;
+        position: relative;
+        bottom: 120px;
+        left: 500px;
+    }
+
+    #share_1 {
+        display: none;
+    }
+    footer {
+        display: block;
+    }
+    footer div {
+        margin: 15px 0;
+    }
+}
+@media screen and (max-width: 895px) {
+    #share_2 {
+        display: block;
+        position: relative;
+        bottom: 120px;
+        left: 400px;
+    }
+}
+@media screen and (max-width: 761px) {
+    #share_2 {
+        display: block;
+        position: absolute;
+        left: 470px;
+        bottom: 700px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #share_2 {
+        display: block;
+        position: absolute;
+        left: 420px;
+        bottom: 700px;
+    }
+}
+@media screen and (max-width: 593px) {
+    #share_2 {
+        display: block;
+        position: absolute;
+        left: 380px;
+        bottom: 700px;
+    }
+}
+@media screen and (max-width: 538px) {
+    #share_2 {
+        display: none;
+    }
 }
