@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+}
+
+#profile__section {
+    margin: 50px;
+}
+
+#profile__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#slack {
+    display: none;
+}
+
+#links a {
+    display: block;
+    background-color: #EAECF0;
+    padding: 24px 32px;
+    margin: 24px;
+    text-decoration: none;
+    color: #101828;
+    text-align: center;
+}
