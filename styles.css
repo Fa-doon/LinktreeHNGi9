@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
 }
 
 main {
@@ -10,13 +11,19 @@ main {
 }
 
 #profile__section {
-    margin: 40px 450px;
+    text-align: center;
+    padding: 30px;
 }
 
 #profile__img {
-    width: 60px;
-    height: 60px;
+    width: 70px;
+    height: 70px;
     border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+#twitter {
+    font-weight: bold;
 }
 
 #slack {
@@ -31,4 +38,19 @@ main {
     text-decoration: none;
     color: #101828;
     text-align: center;
+}
+
+#comm__icons {
+    display: flex;
+    justify-content: center;
+}
+
+#comm__icons img {
+    padding: 30px 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 40px;
 }
