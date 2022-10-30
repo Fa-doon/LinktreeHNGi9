@@ -3,25 +3,35 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 main {
-    width: 60%;
+    width: 70%;
     margin: auto;
 }
 
 #profile__section {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 #profile__img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-bottom: 25px;
 }
 
+#share_1 {
+    position: relative;
+    bottom: 120px;
+    left: 250px;
+}
+
+#share_2 {
+    display: none;
+}
 #twitter {
     font-weight: bold;
 }
@@ -38,6 +48,7 @@ main {
     text-decoration: none;
     color: #101828;
     text-align: center;
+    border-radius: 5px;
 }
 
 #comm__icons {
@@ -46,11 +57,15 @@ main {
 }
 
 #comm__icons img {
-    padding: 30px 15px;
+    padding: 60px 15px;
 }
 
 footer {
     display: flex;
-    justify-content: space-around;
-    padding: 60px 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px;
+    width: 80%;
+    margin: 40px auto 0 auto;
+    border-top: 1px solid #EAECF0;;
 }
